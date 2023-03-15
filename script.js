@@ -121,7 +121,7 @@ let categories = [
 ]
 
 for(let item of arr){
-    for(let categ of categories) {....
+    for(let categ of categories) {
     if(item.info.faculity == categ.course){
         categ.count++
     } 
